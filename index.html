@@ -57,13 +57,48 @@
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
   </style>
 </head>
 <body>
 
 <!-- Navbar -->
 <nav class="navbar navbar-default">
-  <div class="container">
+  <div id="myPage" class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -74,16 +109,17 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
+        <li><a href="#who">WHO</a></li>
+        <li><a href="#what">WHAT</a></li>
+        <li><a href="#where">WHERE</a></li>
+		<li><a href="#contacts">CONTACTS</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
+<div id="who" class="container-fluid bg-1 text-center">
   <h3 class="margin">Who Am I?</h3>
   <img src="Srihari1.jpg" class="img-responsive img-circle margin" style="display:inline" alt="MyPic" width="250" height="250">
   <h3>I'm an Performance Engineer</h3>
@@ -92,7 +128,7 @@
 </div>
 
 <!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
+<div id="what" class="container-fluid bg-2 text-center">
   <h3 class="margin">What Am I?</h3>
   <p><br>I have 11 yrs of experience in Performance Engineering field. I have worked mostly on java-based applications. <br>I have gained my knowledge and experience mostly during my on job training and Knowledge Transfer sessions, which is not limited to technologies like Web server [Ngnix, Apache, Internet Information Server], Application Server [Tomcat, Weblogic, WebSphere], Database Server [MySQL, MS SQL, Oracle, DB2], Network, Infrastructure [Local and AWS hosted] and Hardware.<br>
 	
@@ -102,69 +138,51 @@
 
   <br>Thank you for your time and consideration.<br>
   </P>
-  <a href="#" class="btn btn-default btn-lg">
+  <a href="#myPage" class="btn btn-default btn-lg">
     <span class="glyphicon glyphicon-search"></span> Search
   </a>
 </div>
 
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
+<div id="where" class="container-fluid bg-3 text-center">    
   <h3 class="margin">Where did i worked so far ?</h3><br>
   <div class="row">
     <div class="col-sm-4">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="Vanenburg.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
+      <img src="H:\Vanenburg.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
     </div>
     <div class="col-sm-4"> 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="Cognizant.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
+      <img src="H:\Cognizant.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
     </div>
     <div class="col-sm-4"> 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="Mindtree.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
+      <img src="H:\Mindtree.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
     </div>
   </div>
    <div class="row">
     <div class="col-sm-4">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="Applabs.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
+      <img src="H:\Applabs.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
     </div>
     <div class="col-sm-4"> 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="Hexa.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
+      <img src="H:\Hexa.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
     </div>
     <div class="col-sm-4"> 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="G-Ants.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
+      <img src="H:\G-Ants.jpg" class="img-responsive margin" style="display:inline" alt="MyPic" width="75" height="75">
     </div>
   </div>
 </div>
 
 <!-- Fourth Container (Grid) -->
-<div class="container-fluid bg-4 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid bg-5">
-  <h2 class="text-center">CONTACT</h2>
+<div id="contacts" class="container-fluid bg-5">
+  <h4 class="text-right">Contact me and I'll get back to you within 24 hours.</h4>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact me and I'll get back to you within 24 hours.</p>
+      <p><h2>Where To Find Me?</h2></p>
       <p><span class="glyphicon glyphicon-map-marker"></span> Coimbatore, Tamil Nadu - India</p>
       <p><span class="glyphicon glyphicon-phone"></span> Mobile Number On Request</p>
       <p><span class="glyphicon glyphicon-envelope"></span> srihari.29@gmail.com</p> 
@@ -189,8 +207,11 @@
 </div>
 
 <!-- Footer -->
-<footer class="container-fluid bg-6 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
 </footer>
 
 </body>
