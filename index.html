@@ -282,7 +282,19 @@
   </div>
 </div>
 
-
+<script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCxatL7hQMvxnqlPUZbUe2VEbvwEWE71a8",
+    authDomain: "my-project-8af04.firebaseapp.com",
+    databaseURL: "https://my-project-8af04.firebaseio.com",
+    projectId: "my-project-8af04",
+    storageBucket: "my-project-8af04.appspot.com",
+    messagingSenderId: "1033440615126"
+  };
+  firebase.initializeApp(config);
+</script>
 
 
 <!-- Add Google Maps -->
@@ -297,21 +309,6 @@ marker.setMap(map);
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPdMDhlSFMzKKV3X2RiJ7b0tW5IeKxbqo&callback=myMap"></script>
-
-
-<script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCxatL7hQMvxnqlPUZbUe2VEbvwEWE71a8",
-    authDomain: "my-project-8af04.firebaseapp.com",
-    databaseURL: "https://my-project-8af04.firebaseio.com",
-    projectId: "my-project-8af04",
-    storageBucket: "my-project-8af04.appspot.com",
-    messagingSenderId: "1033440615126"
-  };
-  firebase.initializeApp(config);
-</script>
 
 <!--
 To use this code on your website, get a free API key from Google.
